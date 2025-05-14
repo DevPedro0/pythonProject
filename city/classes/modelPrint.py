@@ -12,7 +12,7 @@ class ModelPrint(dict):
     def modelPrintFunction(self):
         ...
         
-    def modelPrintIdentity(self):
+    def modelPrintIdentity(self, x:int, y:int):
         ...
         
     def SendMessageDefault(self, msg: str, obj: str, *args, **kwargs) -> int:

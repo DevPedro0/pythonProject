@@ -34,6 +34,9 @@ def default(update_data:bool, *args, **kwargs):
         
     return "Passe Kwargs por Favor"
 
+def addEvent(*args, **kwargs):
+    ...
+
 class ModelPay():
     def __init__(self, method:str, bank:str, quantityMonths:int):
         self.method = method
